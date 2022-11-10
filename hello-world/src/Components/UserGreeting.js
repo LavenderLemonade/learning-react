@@ -8,7 +8,8 @@ class UserGreeting extends Component {
          isLoggedIn: true
       }
     }
-
+//------------------------------------------------------------------------------
+//---------------Short Circuit Method--------------------------------------
     render(){
         return this.state.isLoggedIn && <div> Welcome Sam!</div>
     }
