@@ -4,6 +4,8 @@ import Greet from './Components/Greet.js';
 import Welcome from './Components/Welcome';
 import Message from './Components/Message';
 import Counter from './Components/Counter';
+import FunctionClick from './Components/FunctionClick';
+import ClassClick from './Components/ClassClick';
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
 
       {/* <Greet /> */}
 
-    <Counter />
+    {/* <Counter /> */}
       {/* <Greet name = "Bruce" heroName = "Batman">
         <p> this is children props </p> </Greet>
       <Greet name = "Clark" heroName = "Superman"> 
@@ -22,6 +24,10 @@ function App() {
       <Welcome name = "Clark" heroName = "Superman">  </Welcome>
       <Welcome name = "Diana" heroName = "Wonder Woman">  </Welcome> */}
       {/* <Message> </Message> */}
+
+      {/* <FunctionClick/> */}
+
+      <ClassClick />
 
     </div>
   );
