@@ -10,9 +10,17 @@ import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
 import UserGreeting from './Components/UserGreeting';
 import NameList from './Components/NameList';
+import StyleSheet from './Components/StyleSheet';
+import Inline from './Components/Inline';
+import styles from './Components/appStyles.module.css'
+import Form from './Components/Form';
+import LifecycleA from './Components/LifecycleA';
+
 function App() {
   return (
     <div className="App">
+
+    {/* <h1 className = {styles.happy}> happy </h1> */}
 
       {/* <Greet /> */}
 
@@ -38,7 +46,17 @@ function App() {
 
       {/* <UserGreeting /> */}
 
-      <NameList />
+      {/* <NameList /> */}
+
+      {/* <StyleSheet primary = {true}> 
+        
+      </StyleSheet>
+
+      <Inline /> */}
+
+      {/* <Form /> */}
+
+      <LifecycleA/>
 
     </div>
   );
