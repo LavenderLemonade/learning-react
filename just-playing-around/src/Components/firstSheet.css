@@ -1,0 +1,16 @@
+.thing {
+    border: 2px solid black;
+    border-radius: 5%;
+
+    height: 500px;
+    width: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    transform: rotate(360deg);
+    transition: transform 2s;
+}
